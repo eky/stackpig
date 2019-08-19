@@ -1,5 +1,5 @@
 ---
-title: Consequat Dolor
+title: Consequat Dolor123123
 img_path: images/pic05.jpg
 menus:
   main:
