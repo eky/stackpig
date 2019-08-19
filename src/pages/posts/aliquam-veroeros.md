@@ -1,5 +1,6 @@
 ---
-title: Aliquam veroeros
+title: "Aliquam veroeros\U0001F43D"
+subtitle: ''
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum
   facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
