@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --port 8001",
     "start": "npm run develop",
     "build": "gatsby build --prefix-paths",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve --port 8002"
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
