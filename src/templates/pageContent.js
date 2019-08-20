@@ -1,6 +1,9 @@
 import React from 'react';
 
-import {markdownify, safePrefix, htmlToReact} from '../utils';
+import {
+  markdownify,
+  safePrefix,
+} from '../utils';
 
 const PageContent = ({
   data: {
@@ -19,7 +22,7 @@ const PageContent = ({
       {img_path &&
         <span className="image main"><img src={safePrefix(img_path)} alt="" /></span>
       }
-      {htmlToReact(html)}
+      {markdownify(html)}
     </div>
   </section>
 );
