@@ -1,5 +1,5 @@
 ---
-title: "Aliquam veroerosらん豚\U0001F437test"
+title: "Aliquam veroerosらん豚\U0001F437test123"
 subtitle: ''
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum
@@ -8,6 +8,9 @@ excerpt: >-
 img_path: images/pic02.jpg
 post_button_label: Details
 date: '2017-04-03'
+menus:
+  main:
+    weight: ''
 template: page
 ---
 
