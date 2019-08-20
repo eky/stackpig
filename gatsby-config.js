@@ -27,8 +27,14 @@ module.exports = {
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
+        },
+        {
+          resolve: 'gatsby-plugin-netlify-cms',
+          options: {
+            modulePath: `${__dirname}/src/cms/cms.js`,
+          },
         },
         {
             resolve: `@stackbit/gatsby-plugin-menus`,
