@@ -6,8 +6,7 @@ publish_mode: editorial_workflow
 media_folder: static/images
 public_folder: /images
 show_preview_links: true
-site_url: https://deploy-preview-9--stackpig-a0a4c.netlify.com
-display_url: https://stackpig-a0a4c.netlify.com
+site_url: https://stackpig-a0a4c.netlify.com
 collections:
   - name: config
     label: Config
