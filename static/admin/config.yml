@@ -6,7 +6,8 @@ publish_mode: editorial_workflow
 media_folder: static/images
 public_folder: /images
 show_preview_links: true
-site_url: http://localhost:8001
+site_url: https://cms-aliquam-veroeros--stackpig-a0a4c.netlify.com
+display_url: https://stackpig-a0a4c.netlify.com
 collections:
   - name: config
     label: Config
@@ -520,6 +521,7 @@ collections:
     create: true
     extension: md
     slug: '{{slug}}'
+    preview_path: posts/{{slug}}
     fields:
       - widget: string
         name: title
