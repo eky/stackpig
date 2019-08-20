@@ -1,5 +1,5 @@
 ---
-title: "Aliquam veroeros\U0001F638"
+title: "Aliquam veroerosらん豚\U0001F638"
 subtitle: ''
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum
