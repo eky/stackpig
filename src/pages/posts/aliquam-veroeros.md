@@ -3,7 +3,7 @@ title: "Aliquam veroerosらん豚\U0001F437test"
 fullname:
   firstname: '1'
   lastname: '3'
-  middlename: '2'
+  middlename: ''
 subtitle: Sub title
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum
