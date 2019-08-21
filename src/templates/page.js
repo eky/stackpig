@@ -5,19 +5,22 @@ import { Layout } from '../components/index';
 
 import PageContent from './pageContent';
 
-export default class Page extends React.Component {
-  render() {
-    return (
-      <Layout {...this.props}>
-        <PageContent
-          data={{
-            title: _.get(this.props, 'pageContext.frontmatter.title'),
-            subtitle: _.get(this.props, 'pageContext.frontmatter.subtitle'),
-            img_path: _.get(this.props, 'pageContext.frontmatter.img_path'),
-            html: _.get(this.props, 'pageContext.html'),
-          }}
-        />
-      </Layout>
-    );
-  }
-}
+const Page = props => (
+  <Layout {...props}>
+    <PageContent
+      data={{
+        title: _.get(props, 'pageContext.frontmatter.title'),
+        subtitle: _.get(props, 'pageContext.frontmatter.subtitle'),
+        img_path: _.get(props, 'pageContext.frontmatter.img_path'),
+        fullname: {
+          firstname: _.get(props, 'pageContext.frontmatter.fullname.firstname'),
+          middlename: _.get(props, 'pageContext.frontmatter.fullname.middlename'),
+          lastname: _.get(props, 'pageContext.frontmatter.fullname.lastname'),
+        },
+        html: _.get(props, 'pageContext.html'),
+      }}
+    />
+  </Layout>
+);
+
+export default Page;

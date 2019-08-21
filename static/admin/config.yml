@@ -526,6 +526,23 @@ collections:
         name: title
         label: Page Title
         required: true
+      - widget: object
+        name: fullname
+        label: Full Name
+        required: false
+        fields:
+          - widget: string
+            name: firstname
+            label: First Name
+            required: true
+          - widget: string
+            name: middlename
+            label: Middle Name
+            required: false
+          - widget: string
+            name: lastname
+            label: Last Name
+            required: true
       - widget: markdown
         name: subtitle
         label: Page Subtitle

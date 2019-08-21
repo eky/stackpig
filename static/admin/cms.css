@@ -1,3 +1,6 @@
-img {
-  max-width: 100%;
+@import "../assets/css/main.css";
+
+.cms-preview__title {
+  text-align: center;
+  padding: 1rem;
 }
