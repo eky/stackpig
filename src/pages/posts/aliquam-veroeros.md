@@ -1,15 +1,7 @@
 ---
-title: "Aliquam veroerosらん豚\U0001F437test"
-namelist:
-  - firstname: a
-    lastname: cccccc
-  - firstname: '5'
-    lastname: '7'
-    middlename: '6'
-fullname:
-  firstname: '1'
-  lastname: '3'
-  middlename: ''
+title: "Page title \U0001F601"
+sectionlist:
+  - sectiontype: lirt
 subtitle: Sub title
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum
