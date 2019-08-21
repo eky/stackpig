@@ -1,5 +1,12 @@
 ---
 title: "Aliquam veroerosらん豚\U0001F437test"
+superfullname:
+  - firstname: a
+    lastname: c
+    middlename: b
+  - firstname: '8'
+    lastname: '0'
+    middlename: '9'
 fullname:
   firstname: '1'
   lastname: '3'
