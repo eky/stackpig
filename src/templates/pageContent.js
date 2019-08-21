@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import {
   markdownify,
@@ -11,6 +12,11 @@ const PageContent = ({
     subtitle,
     img_path,
     html,
+    fullname: {
+      firstname,
+      middlename,
+      lastname,
+    },
   }
 }) => (
   <section id="main" className="wrapper style1">
@@ -19,6 +25,7 @@ const PageContent = ({
         <h1>{title}</h1>
         {markdownify(subtitle)}
       </header>
+      <p>{`First: ${firstname}, middle: ${middlename || '-'}, lastname: ${lastname}`}</p>
       {img_path &&
         <span className="image main"><img src={safePrefix(img_path)} alt="" /></span>
       }
@@ -26,5 +33,19 @@ const PageContent = ({
     </div>
   </section>
 );
+
+PageContent.propTypes = {
+  data: PropTypes.shape({
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    img_path: PropTypes.string,
+    html: PropTypes.string,
+    fullname: PropTypes.shape({
+      firstname: PropTypes.string,
+      middlename: PropTypes.string,
+      lastname: PropTypes.string,
+    }),
+  })
+};
 
 export default PageContent;
