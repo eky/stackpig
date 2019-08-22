@@ -526,23 +526,24 @@ collections:
         name: title
         label: Page Title
         required: true
-      - widget: object
+      - widget: fullname
         name: fullname
         label: Full Name
         required: false
+      - widget: list
+        name: sectionlist
+        label: Section List
+        required: false
         fields:
-          - widget: string
-            name: firstname
-            label: First Name
+          - widget: select
+            name: sectiontype
+            label: Section Type
             required: true
-          - widget: string
-            name: middlename
-            label: Middle Name
-            required: false
-          - widget: string
-            name: lastname
-            label: Last Name
-            required: true
+            options:
+              - { label: "Text", value: "text" }
+              - { label: "Left image right text", value: "lirt" }
+              - { label: "Images", value: "images" }
+            hint: The content type of section
       - widget: markdown
         name: subtitle
         label: Page Subtitle

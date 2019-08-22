@@ -12,11 +12,7 @@ const Page = props => (
         title: _.get(props, 'pageContext.frontmatter.title'),
         subtitle: _.get(props, 'pageContext.frontmatter.subtitle'),
         img_path: _.get(props, 'pageContext.frontmatter.img_path'),
-        fullname: {
-          firstname: _.get(props, 'pageContext.frontmatter.fullname.firstname'),
-          middlename: _.get(props, 'pageContext.frontmatter.fullname.middlename'),
-          lastname: _.get(props, 'pageContext.frontmatter.fullname.lastname'),
-        },
+        fullname: _.get(props, 'pageContext.frontmatter.fullname'),
         html: _.get(props, 'pageContext.html'),
       }}
     />
