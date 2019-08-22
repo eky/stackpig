@@ -1,6 +1,6 @@
 ---
 title: "Page title \U0001F601"
-fullname: first---middle---
+fullname: '{"middlename":"a"}'
 sectionlist:
   - sectiontype: lirt
 subtitle: Sub title
