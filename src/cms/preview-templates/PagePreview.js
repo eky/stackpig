@@ -11,11 +11,7 @@ const PagePreview = ({ entry }) => {
           title: entry.getIn(['data', 'title']),
           subtitle: entry.getIn(['data', 'subtitle']),
           img_path: entry.getIn(['data', 'img_path']),
-          fullname: {
-            firstname: entry.getIn(['data', 'fullname', 'firstname']),
-            middlename: entry.getIn(['data', 'fullname', 'middlename']),
-            lastname: entry.getIn(['data', 'fullname', 'lastname']),
-          },
+          fullname: entry.getIn(['data', 'fullname']),
           html: entry.getIn(['data', 'body']),
         }}
       />
