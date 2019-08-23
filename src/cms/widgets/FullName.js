@@ -47,7 +47,8 @@ class FullNameControl extends PureComponent {
     this.props.onChange(JSON.stringify(newValues));
   }
 
-  isValid() {
+  // Need to be arrow function instead of class method to bind 'this'
+  isValid = () => {
     const values = this.getValues();
     const isAllEmpty = Object.keys(values).reduce((isAllEmpty, key) => {
       if (values[key] === '') isAllEmpty = false;
