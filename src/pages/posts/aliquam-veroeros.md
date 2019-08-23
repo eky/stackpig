@@ -1,6 +1,6 @@
 ---
 title: "Page title \U0001F601"
-fullname: "{\"firstname\":\"\U0001F42C123\",\"middlename\":\"middle\U0001F437\",\"lastname\":\"1\"}"
+fullname: "{\"firstname\":\"\U0001F42C123\",\"middlename\":\"middle\U0001F437\",\"lastname\":\"last\"}"
 sectionlist:
   - sectiontype: lirt
 subtitle: Sub title
