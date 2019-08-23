@@ -1,5 +1,5 @@
 ---
-title: Consequat Dolor
+title: Consequat Dolor test lalala
 img_path: images/pic05.jpg
 menus:
   main:
